@@ -1,6 +1,10 @@
 # IDD Final Project
 
-**Fabio Daiber, Ziyu(Ross) Liu, Alan Babushkin**
+**Fabio Daiber** (*github: fpdaiber; discord: Fabio*)
+
+**Ziyu(Ross) Liu** (*github: dlydb; dsicord: ross_lzy*)
+
+**Alan Babushkin** (*github: ababushkin6; discord: alan.babushkin*)
 
 ### Description
 
