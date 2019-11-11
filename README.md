@@ -6,9 +6,12 @@
 
 **Alan Babushkin** (*github: ababushkin6; discord: alan.babushkin*)
 
+
+## Ai.re - optimized room temperature in large spaces
+
 ### Description
 
-The idea behind the project is the monitor the temerature inside a room using sensors as well as keeping track of the number of people in the room. This is then used to create a optimal value for the thermostat to set the temperature to. People in the room can log into a website and then enter whether they are too hot or too cold as well as what temperatures they are comfortable with. 
+The idea behind the project is the monitor the temperature inside a room using multiple temperature sensors across the room and track of the number of people going in and out of the room. This is then used to create a optimal value for the thermostat to set the temperature to. People in the room can log into a website and then enter whether they are too hot or too cold as well as what temperatures they are comfortable with. 
 
 ### Initial Design
 
