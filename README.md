@@ -19,10 +19,9 @@ The idea behind the project is the monitor the temperature inside a room using m
 
 ### Codes Used
 
-[Ultrasonic](https://github.com/ababushkin6/IDD-Fall19-FinalProject/blob/master/Ultrasonic_Intial_Coding.ino)
+The following is a link to the explaination of the sensors used, how they were utilized and the codes that were written for each respective sensor. 
 
-[Temperature](https://github.com/ababushkin6/IDD-Fall19-FinalProject/blob/master/Temperature_Sensor_Inital.ino)
-
+[Sensor Information](https://github.com/ababushkin6/IDD-Fall19-FinalProject/tree/master/Sensors)
 
 ### Calculate optimal room temperature
 
