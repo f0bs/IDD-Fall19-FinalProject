@@ -4,7 +4,7 @@ Server and sensor client for the web application
 Installing
 ----------
 
-### Python3:
+## Python3:
 
 sudo apt-get update
 
@@ -12,7 +12,7 @@ sudo apt-get install python3-pip
 
 sudo python3 -m pip install --upgrade pip setuptools wheel
 
-### Install with pip:
+## Install with pip:
 
 sudo pip install flask
 
@@ -20,10 +20,9 @@ sudo pip install flask_bootstrap
 
 sudo pip install flask_api
 
-### Running:
+## Running:
 
-Unix instruction:
------------------
+### Unix instruction:
 
 virtualenv env
 
@@ -31,8 +30,7 @@ export FLASK_APP=server
 
 flask run --host=0.0.0.0
 
-Windows instruction:
---------------------
+### Windows instruction:
 
 activate Scripts/activate.bat
 
