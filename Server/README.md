@@ -23,6 +23,7 @@ sudo pip install flask_api
 ### Running:
 
 Unix instruction:
+-----------------
 
 virtualenv env
 
@@ -31,6 +32,7 @@ export FLASK_APP=server
 flask run --host=0.0.0.0
 
 Windows instruction:
+--------------------
 
 activate Scripts/activate.bat
 
