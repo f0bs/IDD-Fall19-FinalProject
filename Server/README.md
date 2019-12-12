@@ -23,4 +23,4 @@ sudo pip install flask_api
 Running
 -------
 
-# The server is running on a flask server with boostrap. Each sensors will act as a client to update sensor data of the server. The server will update and the client will "PUT" data in a period of 1 second. 
+### The server is running on a flask server with boostrap. Each sensors will act as a client to update sensor data of the server. The server will update and the client will "PUT" data in a period of 1 second. 
