@@ -46,6 +46,6 @@ Calculations are based on: [Cornell Unviersity Ergonomics Web](http://ergo.human
 
 ### Final presentation
 
-!alt text[https://github.com/ababushkin6/IDD-Fall19-FinalProject/blob/master/IMG_2825%202.jpg]
+![alt text](https://github.com/ababushkin6/IDD-Fall19-FinalProject/blob/master/IMG_2825%202.jpg)
 
 [Video of the website](https://drive.google.com/open?id=1w4Owynh2kB8nk3H762CxsLngoVftQoUo)
