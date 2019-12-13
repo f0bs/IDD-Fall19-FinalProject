@@ -24,7 +24,13 @@ This is our design schematic:
 
 These are our paper prototype cases for the temperature sensors:
 
-### Devices Used 
+### Microprocessor Devices Used 
+
+The devices that we used to contain our server, run our sensors, and output the data to a website are Raspberry Pi Model 3 B+ boards as well as an Arduino Uno during the testing phase. The boards as well as where they can be obtained are shown below:
+
+*Raspberry Pi Model 3 B+* [Link to Board](https://www.raspberrypi.org/products/raspberry-pi-3-model-b-plus/)
+
+*Arduino Uno Rev3* [Link to Board](https://store.arduino.cc/usa/arduino-uno-rev3)
 
 
 ### Sensors Used & Relevant Codes
