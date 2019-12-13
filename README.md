@@ -2,7 +2,7 @@
 
 **Fabio Daiber** (*github: fpdaiber; discord: Fabio*)
 
-**Ziyu(Ross) Liu** (*github: dlydb; dsicord: ross_lzy*)
+**Ziyu(Ross) Liu** (*github: dlydb; discord: ross_lzy*)
 
 **Alan Babushkin** (*github: ababushkin6; discord: alan.babushkin*)
 
