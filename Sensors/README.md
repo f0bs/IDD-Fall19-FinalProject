@@ -22,8 +22,4 @@ The sensors were initially tested on an Arduino Uno. After many iterations and t
 
 [Final Arduino Code after Development](https://github.com/ababushkin6/IDD-Fall19-FinalProject/blob/master/Sensors/UltrasonicCounter_to_Pi.ino)
 
-After this, the code was recoded and transferred to a raspberry pi. The code used for this final stage is below.
-
-[Raspberry Pi Final Code]()
-
-
+After this, the code was recoded and transferred to a raspberry pi. 
