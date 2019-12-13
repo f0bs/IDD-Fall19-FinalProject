@@ -2,7 +2,7 @@
 
 **Fabio Daiber** (*github: fpdaiber; discord: Fabio*)
 
-**Ziyu(Ross) Liu** (*github: dlydb; discord: ross_lzy*)
+**Ziyu(Ross) Liu** (*github: dlydb; dsicord: ross_lzy*)
 
 **Alan Babushkin** (*github: ababushkin6; discord: alan.babushkin*)
 
@@ -29,9 +29,19 @@ We have two interactions:
 Our design was to have three temperature sensors, each connected to an Arduino and the Arduino connected to a Raspberry Pi. We also used an Arduino to read the ultrasonic sensors and sends it to another Raspberry Pi that we used as central server for all other Pis. 
 
 This is our design schematic: 
+
 ![Design Schematic](https://github.com/ababushkin6/IDD-Fall19-FinalProject/blob/master/DDID%20Final%20Project%20Prototype%20Schematic.png)
 
 These are our paper prototype cases for the temperature sensors:
+
+### Devices Used 
+
+The devices that we used to contain our server, run our sensors, and output the data to a website are Raspberry Pi Model 3 B+ boards as well as an Arduino Uno during the testing phase. The devices and where they can be obtained are shown below:
+
+* 3 Raspberry Pi Model 3 B+* [Link to board](https://www.raspberrypi.org/products/raspberry-pi-3-model-b-plus/)
+* Arduino Uno Rev3* [Link to board](https://store.arduino.cc/usa/arduino-uno-rev3)
+* 2 Adafruit DHT 22 Temperature and Humidity Sensors [Link to sensors](https://www.adafruit.com/product/393)
+* 2 Adafruit Ultrasonic Distance Sensors [Link to sensors](https://www.adafruit.com/product/4007)
 
 ### Progress 
 
@@ -43,18 +53,13 @@ We then had to create an algorithm to show our insights from our sensor measurem
 
 As our last step, we printed small cases for our Raspberry Pis to fit in and put double-sided tape on the back of them. That way we could paste them onto the wall close to an outlet and put the temperature sensors about 2" above it, so they are not affected by the heat of the Pis.
 
-### Microprocessing Devices Used 
+### Codes Used
 
-The devices that we used for our project are a three Raspberry Pi's as well as an Arduino Uno for initial testing purposes. The exact type and related links are:
+[Sensor Information](https://github.com/ababushkin6/IDD-Fall19-FinalProject/tree/master/Sensors)
 
-- Raspberry Pi 3 Model B+ [Link to board](https://www.raspberrypi.org/products/raspberry-pi-3-model-b-plus/)
-- Arduino Uno Rev3 [Link to board](https://store.arduino.cc/usa/arduino-uno-rev3)
+[Ultrasonic](https://github.com/ababushkin6/IDD-Fall19-FinalProject/blob/master/Ultrasonic_Intial_Coding.ino)
 
-### Sensors Used & Relevant Codes
-
-The different sensors used in out project as well as the codes related to their usage can be found below. 
-
-[Sensors Used & Code](https://github.com/ababushkin6/IDD-Fall19-FinalProject/tree/master/Sensors)
+[Temperature](https://github.com/ababushkin6/IDD-Fall19-FinalProject/blob/master/Temperature_Sensor_Inital.ino)
 
 
 ### Calculate body heat emission
@@ -66,7 +71,9 @@ Calculations are based on: [Cornell Unviersity Ergonomics Web](http://ergo.human
 
 ### Key Learnings
 
-
+* Determining optimal room temperature is a highly complex process impacted by various factors from personal preferences to materials used in the room
+* Ultrasonic sensors work the determine people walking in and out, but require people to walk relatviely slow. PIR motion sensors might work better
+* Humans emit a lot of heat (that can be used to heat up a room naturally)
 
 
 ### Final product
