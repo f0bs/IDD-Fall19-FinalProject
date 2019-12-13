@@ -34,15 +34,6 @@ This is our design schematic:
 
 These are our paper prototype cases for the temperature sensors:
 
-### Devices Used 
-
-The devices that we used to contain our server, run our sensors, and output the data to a website are Raspberry Pi Model 3 B+ boards as well as an Arduino Uno during the testing phase. The devices and where they can be obtained are shown below:
-
-* 3 Raspberry Pi Model 3 B+* [Link to board](https://www.raspberrypi.org/products/raspberry-pi-3-model-b-plus/)
-* Arduino Uno Rev3* [Link to board](https://store.arduino.cc/usa/arduino-uno-rev3)
-* 2 Adafruit DHT 22 Temperature and Humidity Sensors [Link to sensors](https://www.adafruit.com/product/393)
-* 2 Adafruit Ultrasonic Distance Sensors [Link to sensors](https://www.adafruit.com/product/4007)
-
 ### Progress 
 
 Unfortunately one of our temperature sensors broke in early tests, so we ran with just two. After the initial setup, we found that we can connect the temperature sensors directly to the Raspberry, which made it much easier to out into a box and distribute across the room. We also connected the ultrasonic sensors directly to a Pi and had all three Pis connected to a flask server that we established on one of our laptops. 
@@ -53,13 +44,18 @@ We then had to create an algorithm to show our insights from our sensor measurem
 
 As our last step, we printed small cases for our Raspberry Pis to fit in and put double-sided tape on the back of them. That way we could paste them onto the wall close to an outlet and put the temperature sensors about 2" above it, so they are not affected by the heat of the Pis.
 
+### Devices Used 
+
+The devices that we used to contain our server, run our sensors, and output the data to a website are Raspberry Pi boards as well as an Arduino Uno during the testing phase. The sensors are a pair of DHT 22s and two ultrasonic distance sensors. The devices and where they can be obtained are shown below:
+
+* 3 Raspberry Pi 3 Model B+ [Link to board](https://www.raspberrypi.org/products/raspberry-pi-3-model-b-plus/)
+* Arduino Uno Rev3 [Link to board](https://store.arduino.cc/usa/arduino-uno-rev3)
+* 2 Adafruit DHT 22 Temperature and Humidity Sensors [Link to sensors](https://www.adafruit.com/product/393)
+* 2 Adafruit Ultrasonic Distance Sensors [Link to sensors](https://www.adafruit.com/product/4007)
+
 ### Codes Used
 
-[Sensor Information](https://github.com/ababushkin6/IDD-Fall19-FinalProject/tree/master/Sensors)
-
-[Ultrasonic](https://github.com/ababushkin6/IDD-Fall19-FinalProject/blob/master/Ultrasonic_Intial_Coding.ino)
-
-[Temperature](https://github.com/ababushkin6/IDD-Fall19-FinalProject/blob/master/Temperature_Sensor_Inital.ino)
+[Sensor Information & Coding](https://github.com/ababushkin6/IDD-Fall19-FinalProject/tree/master/Sensors)
 
 
 ### Calculate body heat emission
