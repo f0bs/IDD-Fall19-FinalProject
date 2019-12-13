@@ -27,11 +27,9 @@ These are our paper prototype cases for the temperature sensors:
 ### Devices Used 
 
 
-### Codes Used
+### Sensors Used & Relevant Codes
 
-[Ultrasonic](https://github.com/ababushkin6/IDD-Fall19-FinalProject/blob/master/Ultrasonic_Intial_Coding.ino)
-
-[Temperature](https://github.com/ababushkin6/IDD-Fall19-FinalProject/blob/master/Temperature_Sensor_Inital.ino)
+[Sensor Information](https://github.com/ababushkin6/IDD-Fall19-FinalProject/tree/master/Sensors)
 
 
 ### Calculate body heat emission
