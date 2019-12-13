@@ -49,11 +49,11 @@ We then had to create an algorithm to show our insights from our sensor measurem
 
 As our last step, we printed small cases for our Raspberry Pis to fit in and put double-sided tape on the back of them. That way we could paste them onto the wall close to an outlet and put the temperature sensors about 2" above it, so they are not affected by the heat of the Pis.
 
-### Codes Used
+### Sensors Used & Relevant Codes
 
-[Ultrasonic](https://github.com/ababushkin6/IDD-Fall19-FinalProject/blob/master/Ultrasonic_Intial_Coding.ino)
+The different sensors used in out project as well as the codes related to their usage can be found below. 
 
-[Temperature](https://github.com/ababushkin6/IDD-Fall19-FinalProject/blob/master/Temperature_Sensor_Inital.ino)
+[Sensors Used & Code](https://github.com/ababushkin6/IDD-Fall19-FinalProject/tree/master/Sensors)
 
 
 ### Calculate body heat emission
