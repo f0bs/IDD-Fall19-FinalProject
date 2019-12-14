@@ -44,3 +44,5 @@ Real-time Update
 The server is running on a flask server with boostrap. Each sensors will act as a client to update sensor data of the server. The server will update and the client will "PUT" data in a period of 1 second. 
 
 [Server Code](https://github.com/ababushkin6/IDD-Fall19-FinalProject/blob/master/Server/server.py)
+
+[HTML template](https://github.com/ababushkin6/IDD-Fall19-FinalProject/blob/master/Server/index.html)
