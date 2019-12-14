@@ -76,7 +76,7 @@ The devices that we used to contain our server, run our sensors, and output the 
 
 [Sensor Information & Coding](https://github.com/ababushkin6/IDD-Fall19-FinalProject/tree/master/Sensors)
 
-[Server Coding](https://github.com/ababushkin6/IDD-Fall19-FinalProject/tree/master/Server)
+[Server Information & Coding](https://github.com/ababushkin6/IDD-Fall19-FinalProject/tree/master/Server)
 
 
 ### Calculate body heat emission
