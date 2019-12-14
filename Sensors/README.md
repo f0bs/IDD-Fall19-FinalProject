@@ -12,7 +12,7 @@ The two types of sensors that we used are two ultrasonic sensors as well as two 
 
 The temperature sensors were used to determine the temperature and humidity of the room. They were strategically placed to cover the whole room to make our algorithm more accurate. The sensors were initally a lower quality sensor that was used for proof of concept. After the testing was completed the temperature sensors were upgraded to significantly more accurate and precise ones. They were directly tested on the raspberry pi so no recoding was needed. The code used for these sensors is below. 
 
-[Raspberry Pi Final Code](https://github.com/ababushkin6/IDD-Fall19-FinalProject/blob/master/Server/idd-master/examples/simpletest.py)
+[Raspberry Pi Final Code](https://github.com/ababushkin6/IDD-Fall19-FinalProject/blob/master/Server/idd-master/examples/AdafruitDHT.py)
 
 ### Ultrasonic Sensors
 
