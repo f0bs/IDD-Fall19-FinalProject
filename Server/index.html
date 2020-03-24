@@ -1,0 +1,65 @@
+{% extends "bootstrap/base.html" %}
+
+{% block content %}
+
+<h1> ai.re </h1>
+<h2></h2>
+<h2>User Input </h2>
+<h4></h4>
+<form action="{{ url_for('handle_data') }}" method="post">
+  <div class="form-group">
+    <label for="exampleInputEmail1">Room length</label>
+    <input type="number" class="form-control" id="exampleInputEmail1" placeholder="unit in ft" name="leng">
+    <label for="exampleInputEmail1">Room width</label>
+    <input type="number" class="form-control" id="exampleInputEmail1" placeholder="unit in ft" name="width">
+    <label for="exampleInputEmail1">Desired room temperature</label>
+    <input type="number" class="form-control" id="exampleInputEmail1" placeholder="unit in F" name="tmp">
+
+    <label>Activity </label>
+    <select name="act">
+	  <option value='1'>Sitting relaxed</option>
+	  <option value='1.2'>Sitting working</option>
+	  <option value='1.2'>Standing relaxed</option>
+	  <option value='1.6'>Standing light activity</option>
+	  <option value='2'>Medium activity (machine work)</option>
+	  <option value='3'>High activity (heavy work)</option>
+	</select>
+  </div>
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+
+<h2>
+</h2>
+
+<h2> Sensor reading </h2>
+<h4></h4>
+<div class='alert alert-success' role='alert' id='sen1'>
+	<a class='alert-link'> Sensor 1: Temperature: {{data.tem1}}, Humidity: {{data.hum1}} </a>
+</div>
+<div class='alert alert-info' role='alert' id='sen2'> Sensor 2: Temperature: {{data.tem2}}, Humidity: {{data.hum2}}
+</div>
+<div class='alert alert-warning' role='alert' id='sen3'>
+	<a class='alert-link'> There are {{data.num}} of people inside the room </a>
+</div>
+
+<h1>
+</h1>
+
+<h2> Time needed to heat up the room</h2>
+<h4></h4>
+<div> Your input - Room size: {{ data.room}}, desired temperature: {{ data.desired_tmp }}
+</div>
+<h4></h4>
+<div class='alert alert-warning' role='alert' id='ref'>
+	<a class='alert-link'> Time needed for people to heat up room: {{data.hour}} hours </a>
+</div>
+{% endblock %}
+
+{% block scripts %}
+{{ super() }}
+<script type="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.min.js"></script>
+<script>
+setInterval(function(){ $("#sen1").load("/sensor1"), $("#sen2").load("/sensor2"), $("#sen3").load("/sensor3"), $("#ref").load("/refresh")},1000)
+</script>
+
+{% endblock %}
